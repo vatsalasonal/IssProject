@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:dist="http://schemas.android.com/apk/distribution"
         xmlns:tools="http://schemas.android.com/tools"
-        package="com.issapp">
+        package="com.iss">
 
     <dist:module dist:instant="true"/>
 
@@ -11,9 +11,9 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
     <application
-            android:name="com.issapp.di.IssApp"
+            android:name="com.iss.di.App"
             android:allowBackup="true"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@mipmap/iss_emblem"
             android:label="@string/app_name"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
@@ -22,7 +22,7 @@
             android:usesCleartextTraffic="true"
             tools:ignore="GoogleAppIndexingWarning">
 
-        <activity android:name="com.issapp.ui.MapActivity">
+        <activity android:name="com.iss.ui.MapActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -32,7 +32,7 @@
 
         <meta-data
                 android:name="com.google.android.geo.API_KEY"
-                android:value="AIzaSyCiSh4VnnI1jemtZTytDoj2X7Wl6evey30" />
+                android:value="@string/API_KEY" />
 
     </application>
 

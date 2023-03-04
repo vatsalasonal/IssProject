@@ -1,6 +1,9 @@
 <resources>
-    <string name="app_name">RetrofitWithDagger</string>
+    <string name="app_name">ISS App</string>
     <string name="distance">Distance between GPS and ISS location is : </string>
     <string name="crafts_ISS">ISS</string>
     <string name="gps_location">GPS Location</string>
+    <string name="latitude">Lat : </string>
+    <string name="longitude">Lng : </string>
+    <string name="API_KEY">AIzaSyCiSh4VnnI1jemtZTytDoj2X7Wl6evey30</string>
 </resources>

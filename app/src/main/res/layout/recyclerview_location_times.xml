@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/transparent"
+        android:padding="10dp">
+
+    <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"/>
+
+    <TextView
+            android:id="@+id/tvTimes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLocation"
+            android:text="Location"
+            android:textStyle="italic"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"/>
+
+</RelativeLayout>
